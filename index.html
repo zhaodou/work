@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="icon(1)/iconfont.css">
+</head>
+<body>
+<script src="js/swiper-3.3.1.min.js"></script>
+    <div id="box">
+        <header class="header">
+            <span>假日旅行</span>
+        </header>
+        <main class="main">
+            <div class="swiper-container container">
+                <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <img src="images/1_02.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="images/1_02.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="images/1_02.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="images/1_02.png" alt="">
+                </div>
+            </div>
+                <div class="swiper-pagination pagination"></div>
+            </div>
+            <div class="iconText">
+                <dl>
+                    <dt style="background: #46d265"><b class="iconfont">&#xe61b;</b></dt>
+                    <dd>热门景点</dd>
+                </dl>
+                <dl>
+                    <dt style="background: #ff7b06"><b class="iconfont">&#xe61b;</b></dt>
+                    <dd>记账簿</dd>
+                </dl>
+                <dl>
+                    <dt style="background: #5aaaff"><b class="iconfont">&#xe61b;</b></dt>
+                    <dd>境内/境外</dd>
+                </dl>
+                <dl>
+                    <dt style="background: #feb546"><b class="iconfont">&#xe61b;</b></dt>
+                    <dd>轮船票</dd>
+                </dl>
+            </div>
+            <div class="iconText">
+                <dl>
+                    <dt style="background: #fe645a"><b class="iconfont">&#xe61b;</b></dt>
+                    <dd>酒店</dd>
+                </dl>
+                <dl>
+                    <dt style="background: #66cbff"><b class="iconfont">&#xe61b;</b></dt>
+                    <dd>飞机票</dd>
+                </dl>
+                <dl>
+                    <dt style="background: #ffd33c"><b class="iconfont">&#xe61b;</b></dt>
+                    <dd>火车票</dd>
+                </dl>
+                <dl>
+                    <dt style="background: #5bdcc8"><b class="iconfont">&#xe61b;</b></dt>
+                    <dd>行程记录</dd>
+                </dl>
+            </div>
+            <div class="top">
+                <dl>
+                    <dd><span>热销中</span><span>大家都爱玩</span></dd>
+                    <dt><img src="images/2_05.png" alt=""></dt>
+                </dl>
+                <dl>
+                    <dd><span>我身边</span><span>附近有什么</span></dd>
+                    <dt><img src="images/2_05.png" alt=""></dt>
+                </dl>
+            </div>
+            <div class="top">
+                <dl>
+                    <dd><span>千元出国</span><span>周二、五开抢</span></dd>
+                    <dt><img src="images/2_05.png" alt=""></dt>
+                </dl>
+                <dl>
+                    <dd><span>旅游日历</span><span>1元门票早知道</span></dd>
+                    <dt><img src="images/2_05.png" alt=""></dt>
+                </dl>
+            </div>
+            <div class="top">
+                <dl>
+                    <dd><span>热销中</span><span>大家都爱玩</span></dd>
+                    <dt><img src="images/2_05.png" alt=""></dt>
+                </dl>
+                <dl>
+                    <dd><span>热销中</span><span>大家都爱玩</span></dd>
+                    <dt><img src="images/2_05.png" alt=""></dt>
+                </dl>
+            </div>
+        </main>
+        <footer class="footer">
+            <a href="javascript:;"><span class="iconfont" style="color:#46d265">&#xe648;</span><span>首页</span></a>
+            <a href="javascript:;"><span class="iconfont">&#xe648;</span><span>订单</span></a>
+            <a href="javascript:;"><span class="iconfont">&#xe648;</span><span>我的</span></a>
+            <a href="javascript:;"><span class="iconfont">&#xe648;</span><span>更多</span></a>
+        </footer>
+    </div>
+<script>
+    document.documentElement.style.fontSize=document.documentElement.clientWidth/375*50+"px";
+    var swiper = new Swiper(".container",{
+        autoplay:1000,
+        loop:true,
+        pagination:".pagination",
+        autoplayDisableInteraction:false
+    })
+</script>
+</body>
+</html>

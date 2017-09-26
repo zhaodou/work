@@ -1,0 +1,143 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+%qjz{
+  display: -webkit-flex;
+  align-items:center;
+  justify-content:center;
+}
+body{
+  font-size: 0.32rem;
+  background:#f5f5f5;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+b{
+  font-weight: normal;
+}
+%full{
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+}
+html,body,#box{
+  @extend %full;
+}
+#box{
+  width: 100%;
+  height:100%;
+  display: -webkit-flex;
+  -webkit-flex-direction:column;
+}
+#box{
+  display:-webkit-flex;
+  -webkit-flex-direction: column;
+}
+.header{
+  width:100%;
+  height:1rem;
+  background:#46d265;
+  @extend %qjz;
+  a:nth-child(1){
+    -webkit-flex:1;
+    line-height: 1rem;
+    b{
+      color:#fff;
+      margin-left:10px;
+    }
+  }
+  a:nth-child(2){
+    -webkit-flex:4;
+    text-align:center;
+    font-size: 18px;
+    color:#fff;
+  }
+  a:nth-child(3){
+    -webkit-flex:1;
+  }
+}
+.main{
+  width:100%;
+  overflow-y:scroll;
+  background:#fff;
+  p{
+    width:90%;
+    margin-left:5%;
+    margin-top:7px;
+    height:0.8rem;
+    border:1px solid #ccc;
+    background:#fff;
+    b{
+      padding:5px;
+
+    }
+    input{
+      width:80%;
+      height:100%;
+      border:none;
+      outline: none;
+    }
+  }
+  h5{
+    width:90%;
+    height:20px;
+    background:#cecece;
+    line-height: 20px;
+    text-indent: 10px;
+  }
+  .text{
+    width:100%;
+    padding:10px;
+    background:#fff;
+    position: relative;
+  }
+}
+.section{
+  -webkit-flex:1;
+  width:100%;
+  background:#fff;
+  display: -webkit-flex;
+  .list{
+    width:90%;
+    li{
+      width:95%;
+      list-style: none;
+      margin-left:5%;
+      height:1rem;
+      line-height: 1rem;
+      border-bottom:1px solid #ccc;
+    }
+  }
+  .listRight{
+    width:10%;
+    background:#fff;
+    li{
+      list-style: none;
+      text-align:center;
+      width:100%;
+      height:20px;
+      line-height: 20px;
+      color:#46d265;
+    }
+  }
+}
+.listRight{
+  right:0px;
+  top:20px;
+  width:20px;
+  background:#fff;
+  ul{
+    width:100%;
+    li{
+      height:20px;
+      list-style:none;
+      line-height: 20px;
+      text-align:center;
+      color:#46d265;
+    }
+  }
+}
